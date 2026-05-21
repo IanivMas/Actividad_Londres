@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+
+
+<h1>Formulario inscripcion londres</h1>
+<input type="text" name="nombre" placeholder="ingrese su nombre" id="nombre">
+<input type="number" name="edad" placeholder="ingrese su edad" id="edad">
+<input type="number" name="primerBimestre" placeholder="ingrese su nota promedio Materia en 1er año" id="primero">
+<input type="number" name="segundoBimestre" placeholder="ingrese su nota promedio Materia en 2do año" id="segundo">
+<p>Seleccione los temas aprobados</p>
+<select name="temas_aprobados" id="temas_aprobados">
+    <option value="1">Listening</option>
+    <option value="2">Writing</option>
+    <option value="3">Ambos</option>
+</select>
+<p>Desea realizar el campamento?</p>
+<input type="radio" name="desea_ir" value="true">si
+<input type="radio" name="desea_ir" value="false">no
+<p></p>
+<input type="button" onclick="verificarInscripcion()" value="verificar inscripcion">
+<div id="resultado"></div>
+<script src="js/index.js"></script>
+
+
+</body>
+</html>
